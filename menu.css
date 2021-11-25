@@ -1,0 +1,81 @@
+.Container{
+    margin: auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 20px;
+    align-items: center;
+
+}
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background: #333;
+    padding:15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+   
+}
+
+.btn-light {
+    background: skyblue;
+    color: #333;
+}
+
+.btn:hover {
+    background: rgba(126, 252, 0, 0.473);
+    color: #333;
+}
+/* Top-Bar */
+.tmbar{
+    display: flex;
+    overflow: auto;
+    align-items: center;   
+    top: 0%; 
+    /* justify-content: space-between; */
+    /* position: fixed; */
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(89, 90, 88) ;
+}
+.tmbar ul{
+    display: flex;
+    list-style: none ;
+    
+    
+   
+}
+.tmbar li a{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+#Search-bar{
+    padding-left: 20px;
+    width: 40%;
+
+}
+.left-bar{
+   float: left;
+   width: 18%;
+   justify-content: center;
+   height: 80vh;
+}
+.left-bar li{
+    list-style: none;
+    margin-top: 10px;
+}
+.left-bar li a{
+
+    text-decoration: none;
+    
+}
+.left-bar ul{
+    box-sizing: border-box;
+    border-style:ridge;
+    padding-bottom: 20px;
+    
+}
