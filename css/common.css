@@ -12,11 +12,13 @@
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
+    min-width: 250px;
     font-family: 'Shippori Antique', sans-serif;
     font-size: 12px;
     height: 50px;
     /* padding: 0px 90px 0px 90px; */
     border-bottom: 3px solid #f2740d;
+
     
 }
 
@@ -95,7 +97,7 @@ nav {
 
 #button-1 {
     border: 1px solid rgb(23, 73, 235);
-    color: black;
+    color: rgb(23, 73, 235);
     
 }
 
