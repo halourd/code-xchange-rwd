@@ -9,6 +9,7 @@
 #top-bar-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
     font-family: 'Shippori Antique', sans-serif;
@@ -16,6 +17,7 @@
     height: 50px;
     /* padding: 0px 90px 0px 90px; */
     border-bottom: 3px solid #f2740d;
+    
 }
 
 #nav-container-1{
