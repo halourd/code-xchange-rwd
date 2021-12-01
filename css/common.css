@@ -7,33 +7,36 @@
 
 
 #top-bar-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-    min-width: 250px;
+    width: 100%;
+    font-family: 'Shippori Antique', sans-serif;
+    /* padding: 0px 90px 0px 90px; */
+    border-bottom: 3px solid #f2740d;
+}
+
+.nav-wrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center; 
+    justify-content: space-between; 
+    grid-column-start: auto;
+    grid-auto-flow: dense;
+    /* overflow: auto; */
     font-family: 'Shippori Antique', sans-serif;
     font-size: 12px;
     height: 50px;
-    /* padding: 0px 90px 0px 90px; */
-    border-bottom: 3px solid #f2740d;
-
-    
 }
 
-#nav-container-1{
+#nav-container-1 {
     display: flex;
+    flex-wrap: nowrap;
     height: 80%;
-    
+    margin: 10px;
 }
 
 #nav-container-2 {
-    display: flex;
-    float: right;
-    height: 80%;
+    
+    width: 140px;
 }
-
 /* #nav-container-1, #nav-container-2 {
 
 } */
@@ -41,6 +44,7 @@
 #nav-list {
     display: flex;
     list-style-type: none;
+    width: 225px;
     padding: 0;
     margin: 0px 10px;
 }
@@ -88,10 +92,15 @@ nav {
 }
 
 
-.search-icon {
+#search-icon {
     margin: 0px 10px;
     position: absolute;
     width: 15px;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
