@@ -69,6 +69,14 @@ nav {
     width: auto;
 }
 
+div #main-logo{
+    width: 150px;
+}
+
+#nav-logo-container {
+
+}
+
 .nav-item {
     display: flex;
     align-items: center;
