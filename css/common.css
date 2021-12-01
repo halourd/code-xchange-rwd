@@ -1,3 +1,11 @@
+
+:root {
+    --orange: #D96710;
+    --darkblue: #0E172A;
+    --pink: #FA4282;
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,17 +15,16 @@
 
 
 #top-bar-container {
-    width: 100%;
     font-family: 'Shippori Antique', sans-serif;
-    /* padding: 0px 90px 0px 90px; */
-    border-bottom: 3px solid #f2740d;
+    padding: 0px 90px 0px 90px;
+    border-top: 3px solid var(--orange);
+    
 }
 
 .nav-wrapper {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+    display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: center; 
     grid-column-start: auto;
     grid-auto-flow: dense;
     /* overflow: auto; */
@@ -28,14 +35,13 @@
 
 #nav-container-1 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     height: 80%;
     margin: 10px;
 }
 
 #nav-container-2 {
-    
-    width: 140px;
+    width: auto;
 }
 /* #nav-container-1, #nav-container-2 {
 
@@ -46,7 +52,6 @@
     list-style-type: none;
     width: 225px;
     padding: 0;
-    margin: 0px 10px;
 }
 
 ul li a{
@@ -56,7 +61,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #f2740d;
+    background-color: var(--orange);
     color: white;
     
 }
@@ -71,10 +76,6 @@ nav {
 
 div #main-logo{
     width: 150px;
-}
-
-#nav-logo-container {
-
 }
 
 .nav-item {
@@ -108,19 +109,23 @@ div #main-logo{
 
 #buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 
 #button-1 {
-    border: 1px solid rgb(23, 73, 235);
-    color: rgb(23, 73, 235);
-    
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+
+#button-1:hover{
+    background: #bbb;
+    color: white;
 }
 
 #button-2 {
-    border: 1px solid rgb(23, 73, 235);
-    background-color: rgb(32, 70, 236);
+    background: var(--orange);
+    background: linear-gradient(270deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
     color: white;
 
 }
@@ -131,6 +136,7 @@ div #main-logo{
     margin-left: 5px;
     padding: 10px;
     border-radius: 5px;
+
 }
 
 
