@@ -1,0 +1,470 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Shippori Antique', sans-serif;
+}
+#top-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    min-width: 250px;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 12px;
+    height: 50px;
+    /* padding: 0px 90px 0px 90px; */
+    border-bottom: 3px solid #f2740d;  
+    position: fixed; 
+    width: 100% ; 
+    background-color:rgb(239, 243, 248) ;
+}
+#nav-container-1{
+    display: flex;
+    height: 80%;
+}
+#nav-container-2 {
+    display: flex;
+    float: right;
+    height: 80%;
+   
+}
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 10px;
+}
+ul li a{
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: black;
+}
+ul li a:hover{
+    background-color: #f2740d;
+    color: white;
+}
+li {
+    margin: 0px 2px;
+}
+nav {
+    width: auto;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    border: 1px solid grey;
+    height: 100%;
+    width: 100%;
+    padding: 2px 30px;
+    border-radius: 5px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+#nav-search-bar {
+    width: 560px;
+    margin: 0px 10px 0px 10px;
+    height: auto;
+}
+.search-icon {
+    margin: 0px 10px;
+    position: absolute;
+    width: 15px;
+}
+#button-1 {
+    border: 1px solid rgb(23, 73, 235);
+    color: rgb(23, 73, 235);
+}
+#button-2 {
+    border: 1px solid rgb(23, 73, 235);
+    background-color: rgb(32, 70, 236);
+     color: white;
+}
+#button-1, #button-2 {
+    align-self: center;
+    justify-self: center;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#container{
+    background-color: white;
+  
+}
+#content{
+    background-color: rgb(239, 243, 248);
+    display: flex;
+    justify-content: center;
+    height: 755px;
+   
+}
+#content2{
+    height: 620px;
+    width: 350px;
+    padding: 5px 5px 5px 5px;
+    background-color: burlywood;
+}
+
+.content-item{
+    height: 580px;
+    width: 350px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(239, 243, 248);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 70px;
+}
+#buttons{
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 160px ;
+    width: 300px;
+    background-color: rgb(239, 243, 248);
+}
+.google{
+    background-color: white;
+    border-radius: 6px;
+    margin: 5px 0px 8px 0px;
+    text-align: center;
+    padding: 1px 6px 1px 6px;
+    padding-bottom: 10px;
+    width: 300px;
+    border-color: white;
+    cursor: pointer;
+}
+.img-google{
+    height: 20px;
+    width: 20px;
+
+}
+.gog{
+    display: inline-flex;
+    
+}
+.git{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin: 5px 0px 12px 0px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.img-git{
+    height: 25px;
+    width: 25px;
+}
+.git2{
+    display: inline;
+    
+}
+.fb{
+    background-color:#3b5998 ;
+    color: white;
+    border-radius: 6px;
+    margin: 5px 0px 14px 0px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    width: 300px; 
+    height: 40px;
+    cursor: pointer;
+}
+.img-fb{
+    height: 15px;
+    width: 15px;
+    border-radius: 5%;
+}
+.fb2{
+    display: inline;
+}
+#formContainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 3%;
+    width: 290px;
+    height: 230px;
+    margin: 10px 20px 20px 25px
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    margin: 0px 25px 0px 25px;
+    font-size: 14px;
+}
+.email-input{
+    width:100% ;
+    height: 30px;
+}
+.inpass{
+    width: 220px;
+    height: 30px;
+}
+.subutton{
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(23, 73, 235);
+    background-color: rgb(32, 70, 236);
+    color: white;
+    cursor: pointer;
+}
+.forgot{
+    text-decoration: none;
+    font-size: smaller;
+}
+#container3{
+    margin: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.acc{
+    font-size: small;
+    
+}
+.p2{
+    text-align: center;
+    margin-bottom: 20px;    
+}
+
+
+
+
+/*2nd css*/
+
+#content2{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(239, 243, 248);
+    width: 100%;
+    height: 1050px ;
+}
+
+.joinStack{
+    margin: 320px 20px 15px 0px ;
+    
+
+}
+
+ .p7{
+     font-size: 15px;
+     padding-bottom: 15px ;
+ }
+ .p7pic{
+     width: 30px;
+     height: 25px;
+ }
+ 
+.p6{
+    font-size: 30px;
+    padding-bottom: 10px ;
+}
+.content-item2{
+    height: 900px;
+    width: 350px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(239, 243, 248);
+}
+#buttons{
+    display: inline-block;
+    flex-direction: column;
+    margin: 10px 15px 0px 25px;
+    height: 160px ;
+    width: 300px;
+    background-color: rgb(239, 243, 248);
+    margin-top: 60px;
+    
+}
+.google{
+    background-color: white;
+    border-radius: 6px;
+    margin: 5px 0px 8px 0px;
+    text-align: center;
+    padding: 1px 6px 1px 6px;
+    padding-bottom: 10px;
+    width: 300px;
+    border-color: white;
+    cursor: pointer;
+}
+.img-google{
+    height: 20px;
+    width: 20px;
+
+}
+.gog{
+    display: inline-flex;
+    
+}
+.git{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin: 5px 0px 12px 0px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.img-git{
+    height: 25px;
+    width: 25px;
+}
+.git2{
+    display: inline;
+    
+}
+.fb{
+    background-color:#3b5998 ;
+    color: white;
+    border-radius: 6px;
+    margin: 5px 0px 14px 0px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    width: 300px; 
+    height: 40px;
+    cursor: pointer;
+}
+.img-fb{
+    height: 15px;
+    width: 15px;
+    border-radius: 5%;
+}
+.fb2{
+    display: inline;
+}
+
+#login-form2{
+    background-color: white;
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.input3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    margin: 0px 25px 0px 25px;
+    
+}
+.em{
+    height: 35px;
+}
+.must{
+    margin: 10px 10px 15px 15px ;
+    padding: 0px 4px 0px 10px;
+    font-size: smaller;
+    color: gray;
+}
+.pic{
+    height: 25px;
+    width: 25px;
+}
+#container-2{
+    width: 250px;
+    height: 160px;
+    padding-top: 3px;
+    padding-left: 10px;
+    border-radius: 9px;
+    margin: 0px 15px 0px 25px;
+    background-color: rgb(239, 243, 248);
+   
+
+}
+.contain{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 135px;
+    border-radius: 5px;
+    padding-bottom: 5px ;
+    padding-top: 20px;
+    margin: 5px 40px 5px 35px;
+}
+.check{
+    align-self: center;
+    padding-bottom: 40px;
+    padding-top: 5px;
+}
+input.box{
+    height: 30px;
+    width: 30px;
+}
+.rec{
+    display: flex;
+    align-self: center;
+    font-size: x-small;
+}
+.tp{
+    align-self: center;
+    font-size: x-small;
+    
+}
+.opt{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 25px 20px 25px;
+    
+    
+}
+.box2{
+    font-size: smaller;
+    text-align: start;
+    height: 70px;
+    margin: 0px 5px 0px 5px;
+}
+
+.sub2{
+    width: 250px;
+    height: 38px;
+    margin: 0px 20px 0px 25px;
+    border: 1px solid rgb(23, 73, 235);
+    background-color: rgb(32, 70, 236);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    
+}
+.click{
+    padding:30px 25px 0px 25px ;
+    margin-top: 30px 20px 0px 20px;
+    font-size: smaller;
+}
+.account{
+    margin: 5px 20px 0px 40px ; 
+   font-size: small;
+   padding: 15px 0px 20px 15px;
+}
+.p4{
+    padding: 15px; 
+ }
+ .p2{
+     padding-bottom: 20px;
+     color: gray;
+ }
+
+
+
+
