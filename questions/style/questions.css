@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+#top-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    min-width: 250px;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 12px;
+    height: 50px;
+    /* padding: 0px 90px 0px 90px; */
+    border-bottom: 3px solid #f2740d;    
+}
+
+#nav-container-1{
+    display: flex;
+    height: 80%;
+    
+}
+
+#nav-container-2 {
+    display: flex;
+    float: right;
+    height: 80%;
+}
+
+/* #nav-container-1, #nav-container-2 {
+
+} */
+
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 10px;
+}
+
+ul li a{
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: black;
+}
+
+ul li a:hover{
+    background-color: #f2740d;
+    color: white;
+    
+}
+
+li {
+    margin: 0px 2px;
+}
+
+nav {
+    width: auto;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-bar {
+    border: 1px solid grey;
+    height: 100%;
+    width: 100%;
+    padding: 2px 30px;
+    border-radius: 5px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+
+#nav-search-bar {
+    width: 560px;
+    margin: 0px 10px 0px 10px;
+    height: auto;
+}
+
+
+.search-icon {
+    margin: 0px 10px;
+    position: absolute;
+    width: 15px;
+}
+
+
+#button-1 {
+    border: 1px solid rgb(23, 73, 235);
+    color: rgb(23, 73, 235);
+    
+}
+
+#button-2 {
+    border: 1px solid rgb(23, 73, 235);
+    background-color: rgb(32, 70, 236);
+    color: white;
+
+}
+
+#button-1, #button-2 {
+    align-self: center;
+    justify-self: center;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Left-Bar */
+.center{
+    width: 1060px;
+    margin: auto;
+}
+.side-container{
+    justify-content: center;
+    align-items: center;
+}
+.left-bar{
+   
+   float: left;
+   /* justify-content: center;
+   align-items: center; */
+   /* height: 80vh; */
+   /* border-style: solid; */
+   overflow: hidden;
+   border-right: 1px solid green;
+   width: 17%;
+   padding-top: 15px;
+   padding-bottom: 20px;
+    
+}
+.left-bar li{
+    list-style: none;
+    margin-top: 20px;
+    
+
+}
+.left-bar li a{
+
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    
+}
+.left-bar ul{
+    box-sizing: border-box;
+    border-style:ridge;
+    padding-bottom: 40px;   
+    font-size: 15px;
+}
+.indent{
+    padding-left: 20px;
+}
+.Teams{
+    padding-left: 10px;
+}
+#button1 {
+    border: 1px solid rgb(23, 73, 235);
+    background-color: rgb(32, 70, 236);
+    color: white;
+}
+#button2 {
+    border: 1px solid rgb(23, 73, 235);
+    color: rgb(23, 73, 235);
+    margin-left: 10px;
+    
+}
+#button1:hover{
+    color: lightgray;
+}
+#button2:hover{
+    background-color: lightgray;
+
+}
+
+/* User Content-------------------------------------------- */
+.Questions{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    overflow: auto;
+    height: 100vh;
+}
+.ques-top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px;
+}
+.ques-top h1{
+    margin-bottom: 20px;
+}
+.ques-top button{
+    cursor: pointer;
+    background-color: rgb(3, 133, 184);
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+
+}
+.ques-top ul{
+    display: flex;
+    list-style: none;
+    margin-top: 10px; 
+}
+.ques-top li{
+    font-size: smaller;
+    border: 1px ridge orange;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(223, 225, 226);
+}
+.ques-top li:hover{
+    color: rgb(97, 95, 95);
+}
+.all-ques{
+    margin: 20px;
+}
+.ques-container{
+    display: flex;
+    border-bottom: 2px solid grey;
+    margin-top: 10px;
+}
+
+.comment p{
+    margin-bottom: 10px;
+    color: rgb(104, 99, 99);
+
+}
+.comment h3{
+    margin-bottom: -5px;
+    font-weight: normal;
+    color: rgb(104, 99, 99);
+}
+.ques-container .title{
+    margin-left:15px;
+}
+.ques-container .title h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.title ul{
+    display: flex;
+    margin: 10px;
+}
+.title li{
+    margin-right: 10px;
+    list-style: none;
+    border: 2px ridge grey;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(187, 227, 243);
+    cursor: pointer;
+}
+.next-page{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.next-page ul{
+    display: flex;
+    list-style: none;
+}
+.next-page li{
+    border: 2px solid grey;
+    padding: 5px 7px;
+    cursor: pointer;
+    align-items: center;
+}
+.next-page li:hover{
+    color: white;
+    background-color:#f2740d;
+}
+.next-page p{
+    margin: 10px;
+}
+/* Right side content---------------------------- */
+.blog{
+    border: 2px solid grey;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgba(254,247,236) ;
+}
+.blog h4{
+    border: 1px ridge grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(253, 239, 216);
+}
+.blog p{
+     margin-bottom: 10px;
+     margin-left: 20px;
+     
+}
+.collectives{
+    border: 2px ridge grey;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.services{
+    margin: 20px;
+    
+}
+.company{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.company img{
+    width: 50px;
+}
+.company li{
+    list-style: none;
+}
+.company ul .go{
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.company button{
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(48, 161, 206);
+    border-color: rgb(48, 161, 206); ;
+}
+.services p{
+    margin-top: 12px;
+}
+ .ads img{
+    width: 300px;
+    margin-top: 20px;
+}
+.related{
+    margin: 20px;
+}
+.related h3{
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.related p{
+    margin-bottom: 10px;
+    color: rgb(104, 99, 99);
+}
+.related button{
+    background-color: rgb(179, 219, 235);
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(36, 154, 201);
+}
+.related h5{
+    color: rgb(53, 158, 199);
+    cursor: pointer;
+}
+.hot-network{
+    margin: 20px;
+
+}
+.hot-network h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.hot-network p{
+    color: rgb(36, 154, 201);
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 13.5px;
+
+}
+/* Footer --------------------------------------------------*/
+.foot{
+    clear: both;
+    background: rgba(15, 15, 15, 0.719);
+}
+.topf{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+   
+}
+.con{
+    list-style: none;
+    /* margin-right: 40px; */
+    margin: 20px;
+    font-size: small;
+
+}
+.con li{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.con .chead{
+    font-size: medium;
+    
+}
+.small{
+    display: flex;
+    font-size: smaller;
+    margin: 30px;
+}
+.small li{
+    margin-right: 20px;
+    list-style: circle;
+    cursor: pointer;
+}
+
