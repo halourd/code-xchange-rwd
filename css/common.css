@@ -26,8 +26,6 @@
     display: flex;
     align-items: center; 
     justify-content: center; 
-    grid-column-start: auto;
-    grid-auto-flow: dense;
     /* overflow: auto; */
     font-family: 'Shippori Antique', sans-serif;
     font-size: 12px;
