@@ -59,7 +59,7 @@ ul li a{
     color: black;
 }
 
-ul li a:hover{
+ul li a:hover {
     background: var(--orange-pink-gradient);
     color: white;
     
