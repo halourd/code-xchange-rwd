@@ -1,37 +1,43 @@
+:root {
+    --orange: #D96710;
+    --darkblue: #0E172A;
+    --pink: #FA4282;
+    --orange-pink-gradient: linear-gradient(270deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
+
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-
-
 #top-bar-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-    min-width: 250px;
     font-family: 'Shippori Antique', sans-serif;
-    font-size: 12px;
-    height: 50px;
-    /* padding: 0px 90px 0px 90px; */
-    border-bottom: 3px solid #f2740d;    
-}
-
-#nav-container-1{
-    display: flex;
-    height: 80%;
+    padding: 0px 90px 0px 90px;
+    border-top: 3px solid var(--orange);
     
 }
 
-#nav-container-2 {
+.nav-wrapper {
     display: flex;
-    float: right;
-    height: 80%;
+    align-items: center; 
+    justify-content: center; 
+    /* overflow: auto; */
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 12px;
+    height: 50px;
 }
 
+#nav-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    margin: 10px;
+}
+
+#nav-container-2 {
+    width: auto;
+}
 /* #nav-container-1, #nav-container-2 {
 
 } */
@@ -39,8 +45,8 @@
 #nav-list {
     display: flex;
     list-style-type: none;
+    width: 225px;
     padding: 0;
-    margin: 0px 10px;
 }
 
 ul li a{
@@ -50,7 +56,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #f2740d;
+    background: var(--orange-pink-gradient);
     color: white;
     
 }
@@ -61,6 +67,10 @@ li {
 
 nav {
     width: auto;
+}
+
+div #main-logo{
+    width: 150px;
 }
 
 .nav-item {
@@ -86,22 +96,31 @@ nav {
 }
 
 
-.search-icon {
+#search-icon {
     margin: 0px 10px;
     position: absolute;
     width: 15px;
 }
 
+#buttons {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 
 #button-1 {
-    border: 1px solid rgb(23, 73, 235);
-    color: rgb(23, 73, 235);
-    
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+
+#button-1:hover{
+    background: rgb(221, 221, 221);
+    color: var(--orange);
 }
 
 #button-2 {
-    border: 1px solid rgb(23, 73, 235);
-    background-color: rgb(32, 70, 236);
+    background: var(--orange);
+    background: linear-gradient(270deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
     color: white;
 
 }
@@ -112,6 +131,7 @@ nav {
     margin-left: 5px;
     padding: 10px;
     border-radius: 5px;
+
 }
 
 /* Left-Bar */
