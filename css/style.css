@@ -1,52 +1,194 @@
 /* #### DITO PO PAKI INSERT YUNG CSS CODES NINYO HEHE 
                 SALAMAT SA DIOS #### */
+:root {
+  --orange: #d96710;
+  --darkblue: #0e172a;
+  --pink: #fa4282;
+  --orange-pink-gradient: linear-gradient(270deg,rgba(217, 103, 16, 1) 0%,rgba(250, 66, 130, 1) 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Shippori Antique", sans-serif;
+}
+
 
 
 /* HAROLD - HOME | Question Page CSS */
 
+.wrapper-home-1 {
+  margin: auto;
+  max-width: 1855px;
+  overflow: auto;
+  border-radius: 10px;
+  font-family: "Shippori Antique", sans-serif;
+  background-color: #34393e;
+  color: white;
+}
+
+.flex-home-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+#flex-home-item-1 {
+  background-color: #fee3cd;
+  padding: 20px;
+}
+
+#home-left-block, #home-right-block{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+  flex-shrink: 1;
+  width: 442px;
+  height: 253px; 
+}
+
+
+.fa-magnifying-glass {
+    font-size: 50px;
+}
+
+#left-block-button #button {
+  background-color: var(--orange);
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 15px 70px;
+}
+
+#search-cont {
+    font-size: 14px;
+}
+
+#search-cont #button-link {
+    text-decoration: underline;
+}
+
+#flex-home-item-2 {
+  background-color: #cde9fe;
+  padding: 30px;
+}
+
+#small-text {
+  font-size: 12px;
+  color: #5a5f64;
+}
+
+
+.fa-lock {
+    font-size: 50px;
+}
+
+.right-block-item #right-block-button-1,
+.right-block-item #right-block-button-2
+{
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: rgb(166, 166, 255);
+  font-size: 15px;
+}
 
 
 
+#flex-home-item-1,
+#flex-home-item-2 {
+  margin: 40px 10px;
+  border-radius: 10px;
+}
+
+#header-main {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#text-primary {
+  background: -webkit-linear-gradient(var(--orange), var(--pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-wrapper {
+  margin: 50px 0px;
+}
+
+.home-body {
+  padding: 30px;
+}
 
 
+.home-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 0px;
+  justify-content: center;
+  text-align: center;
+}
 
+.home-info-items{
+  padding: 40px;
+  width: 17rem;
+}
 
+.info-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 /* JESSA - SIGN-IN LOGIN | SIGN UP */
-
-
-
-
-
-
-
-
 
 /* CRIS - COMPANY | JOBS */
 
-
-
-
-
-
-
-
-
 /* PAUL JUSTINE - QUESTIONS | PROFILE PAGE */
-
-
-
-
-
-
-
-
 
 /* JESSELY - TERMS AND SERVICE */
 
+/* FOOTER */
 
-
-
-
-
-
-
+.foot {
+  clear: both;
+  background: rgba(15, 15, 15, 0.719);
+}
+.topf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: aliceblue;
+}
+.con {
+  list-style: none;
+  /* margin-right: 40px; */
+  margin: 20px;
+  font-size: small;
+}
+.con li {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.con .chead {
+  font-size: medium;
+  
+}
+.small {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: smaller;
+  margin: 30px;
+}
+.small li {
+  margin-right: 20px;
+  list-style: circle;
+  cursor: pointer;
+}
