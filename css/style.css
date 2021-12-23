@@ -388,7 +388,7 @@ s
   padding: 10px;
   cursor: pointer;
   color: rgb(48, 161, 206);
-  border-color: rgb(48, 161, 206); ;
+  border-color: rgb(48, 161, 206); 
 }
 .services p{
   margin-top: 12px;
@@ -553,6 +553,69 @@ margin: 20px;
   margin: 100px 200px;
   margin-bottom: 20px;
 }
+
+/* PRIVATE QUESTION PAGE */
+.x-ques-cont{
+  flex: 4;
+  overflow: auto;
+  height: 100vh;
+  
+}
+.x-center{
+  margin: 30px;
+  width: auto;
+}
+.x-header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.644);
+ 
+}
+.x-ask{
+  margin-bottom: 15px;
+}
+.x-ask h1{
+  margin: 10px 0;
+}
+.x-header p a{
+  display: inline-block;
+  margin: 20px;
+  font-size: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(48, 161, 206);
+  color: wheat;
+}
+.x-com-cont{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.x-com-ans{
+  display: flex;
+  margin: 10px 0;
+  border-bottom: 1px solid gray;
+}
+.x-ans-rate{
+  margin-right: 20px;
+}
+.x-ans-rate p{
+  text-align: center;
+  margin: 10px 0;
+}
+.x-comment-box{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(48, 161, 206) ;
+  background-color: rgb(209, 232, 241) ;
+}
+.x-ans-comment p{
+  margin: 15px 0;
+}
+
+
+
 
 /* JESSELY - TERMS AND SERVICE */
 
