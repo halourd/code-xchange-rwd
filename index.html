@@ -10,24 +10,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"><script src="https://kit.fontawesome.com/d9f094510e.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/d9f094510e.js" crossorigin="anonymous"></script>
+    
+
 </head>
 <body>
-
     <header id="top-bar-container">
         <nav class="nav-wrapper">
             <div id="nav-container-1">
                 <div class="nav-item" id="nav-logo-container">
+                    <a href="/index.html">
                     <img src="/images/logos/LOGO_LANDSCAPE_exchange.png" alt="code_exchange_logo" id="main-logo">
+                    <img src="/images/icons/LOGO.ico" alt="" id="main-logo-ico-only" style="width: 40px;">
+                    </a>
                 </div>
 
-                <div class="nav-item">
+                <div class="nav-item" id="nav-list-wrapper">
                     <ul id="nav-list">
                         <li><a href="#">About</a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="#">For Teams</a></li>
                     </ul>
                 </div> 
+
+                <div class="nav-dropdown">
+                    <span id="dropdown-logo"><i class="fas fa-bars"></i></span>
+                    <div id="dropdown-menu">
+                        <a href="#">About</a>
+                        <a href="#">Products</a>
+                        <a href="#">For Teams</a>
+                    </div>
+                </div>
 
                 <div class="nav-item" id="nav-search-bar">
                     <i class="fas fa-search" id="search-icon"></i>
@@ -36,13 +50,156 @@
             </div>
  
             <div id="nav-container-2">
-                <div id="buttons">
-                    <a href="" id="button-1">Log In</a>
-                    <a href="" id="button-2">Sign Up</a>
-                </div>
+                <a href="/sign-up/login.html" id="button-1">Log In</a>
+                <a href="/sign-up/sign_up.html" id="button-2">Sign Up</a>
             </div>
         </nav>
     </header>
+
+    <section class="home-body">
+        <div class="wrapper-home-1">
+            <div class="flex-home-1">
+                <div id="flex-home-item-1">
+                    <div id="home-left-block">
+                        <div class="left-block-item" id="icon-container">
+                            <i class="fa-solid fa-magnifying-glass" id="icon-mag-glass"></i>
+                        </div>
+                        <div class="left-block-item">
+                            <p>Find the best answer to your technical question, help others answer theirs</p>
+                        </div>
+                        <div class="left-block-item" id="left-block-button">
+                            <a href="#" id="button">Join the community</a>
+                        </div>
+                        <div class="left-block-item" id="search-cont">
+                            <p>or <a href="#" id="button-link">search content</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="flex-home-item-2">
+                    <div id="home-right-block">
+                        <div class="right-block-item">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="right-block-item">
+                            <p>Want a secure, private space for your technical knowledge?</p>
+                        </div>
+                        <div class="right-block-item">
+                            <p id="small-text">Get started</p>
+                        </div>
+                        <div class="right-block-item">
+                            <a href="#" id="right-block-button-1">For large organizations
+                                <span> <i class="far fa-building"></i></span>
+                            </a>
+
+                            <a href="#" id="right-block-button-2">For small teams
+                                <span> <i class="fas fa-user-friends"></i> </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-wrapper">
+                <h1 id="header-main">Every developer has a tab to open <span id="text-primary">Code Exchange</span></h1>
+            </div>
+
+            <div class="home-info">
+                <div class="home-info-items">
+                    <div class="info-title">100+ million</div>
+                    <div>monthly visitors to Code Exchange & Stack Exchange</div>
+                </div>
+                <div class="home-info-items">
+                    <div class="info-title">45.1+ billion</div>
+                    <div>Times a developer got help since 2008</div>
+                </div>
+                <div class="home-info-items">
+                    <div class="info-title">179% ROI</div>
+                    <div>from companies using Code Exchange for teams</div>
+                </div>
+                <div class="home-info-items">
+                    <div class="info-title">5, 000+</div>
+                    <div>Code Exchange for teams instances active every day</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
+        <div>
+            <a href="#">
+                <img src="/images/logos/LOGO_LANDSCAPE_exchange.png" alt="">
+            </a>
+            <img src="#" alt="">
+        </div>
+        <div>
+
+        </div>
+    </section> -->
+
+
+
+    <footer>
+        <div class="foot">
+            <div class="topf">
+                <ul class="con">
+                    <li class="chead">STACK OVERFLOW</li>                      
+                    <li>Questions</li>
+                    <li>Jobs</li>
+                    <li> Developer Jobs Directory</li>
+                    <li>Salary Calculator</li>
+                    <li> Help</li>
+                    <li>Mobile</li>
+                    <li>Disable Responsiveness</li>
+                </ul>
+
+                <ul class="con">
+                    <li class="chead">PRODUCTS</li>
+                    <li>Teams</li>
+                    <li>Talent</li>
+                    <li>Advertising</li>
+                    <li>Enterprise</li>
+                </ul>                     
+
+                <ul class="con">                           
+                    <li class="chead">COMPANY</li>
+                    <li>About</li>
+                    <li>Press</li>
+                    <li>Work Here</li>
+                    <li>Legal</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Contact Us</li>
+                    <li>Cookie Settings</li>
+                    <li>Cookie Policy</li>
+                </ul>
+
+                
+                <ul class="con">
+                    <li class="chead">STACK EXCHANGE NETWORK</li>
+                    <li>Technology</li>
+                    <li>Culture & recreation</li>
+                    <li>Life & arts</li>
+                    <li>Science</li>
+                    <li>Professional</li>
+                    <li>Business</li>
+                    <li>API</li>
+                    <li>Data</li>
+                </ul>
+
+                <ul class="small">
+                    <li>Blog</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                </ul>   
+            </div>  
+        </div>
+    </footer>
+
+
+
 
     
 </body>
