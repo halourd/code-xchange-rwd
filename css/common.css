@@ -95,10 +95,6 @@ div #main-logo{
     align-items: center;
 }
 
-#nav-list-wrapper {
-    /* display: none; */
-}
-
 
 .search-bar {
     border: 1px solid grey;
@@ -206,10 +202,6 @@ div #main-logo{
     .nav-dropdown {
         display: inline-block;
     }
-
-    /* #dropdown-menu {
-        display: block;
-    } */
 
     #main-logo {
         display: none;
