@@ -12,9 +12,12 @@
   margin: 0;
   padding: 0;
   font-family: "Shippori Antique", sans-serif;
+  /* transition: ease-in-out 0.1s; */
 }
 
-
+a{
+  transition: ease-in-out 0.1s;
+}
 
 /* HAROLD - HOME | Question Page CSS */
 
@@ -49,8 +52,8 @@
   text-align: center;
   color: black;
   flex-shrink: 1;
-  width: 442px;
-  height: 253px; 
+  width: 440px;
+  height: 300px; 
 }
 
 
@@ -64,6 +67,10 @@
   font-size: 15px;
   border-radius: 10px;
   padding: 15px 70px;
+}
+
+#left-block-button:hover{
+  transform: scale(1.06);
 }
 
 #search-cont {
@@ -89,16 +96,22 @@
     font-size: 50px;
 }
 
-.right-block-item #right-block-button-1,
-.right-block-item #right-block-button-2
+#right-block-button-1,
+#right-block-button-2
 {
   padding: 20px;
   margin: 5px;
   border-radius: 10px;
-  background-color: rgb(166, 166, 255);
+  background-color: #d96710;
   font-size: 15px;
+  color: white;
 }
 
+#right-block-button-1:hover,
+#right-block-button-2:hover
+{
+  transform: scale(1.06);
+}
 
 
 #flex-home-item-1,
@@ -110,8 +123,7 @@
 #header-main {
     text-align: center;
     font-size: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 80px auto;
 }
 
 #text-primary {
@@ -140,15 +152,25 @@ s
 }
 
 .home-info-items{
+  font-size: 16px;
   padding: 40px;
   width: 17rem;
 }
 
 .info-title {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+.info-title {
+  background: -webkit-linear-gradient(var(--orange), var(--pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* box-shadow: 1px 1px 30px chartreuse; */
+  /* text-shadow: 1px 1px 40px var(--pink); */
+}
+
 
 /* #### FLOAT CARDS ####  */
 
@@ -200,30 +222,137 @@ s
 .card-btn {
   background-color: var(--orange);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin-top: 15px;
   border-radius: 6px;
   border-style: solid;
   border-color: var(--orange);
 }
 
+.card-btn:hover{
+  transform: scale(1.06);
+} 
 
+#card-2-dual-btn .card-btn:hover {
+  transform: scale(1.06);
+}
 
+.home-body-2-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  background-color: #34393e;
+  color: white;
 
+}
+#home-body-2-tech-team-head {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+#home-body-2-tech-team-head h1 {
+  font-size: 35px;
+}
 
+#home-body-2-head-logo img {
+  width: 200px;
+}
 
+.home-body-2-item {
 
+  margin: 20px 0px;
+}
 
+#home-body-2-head-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1px 20%;
+}
+#home-body-2-head-text h1 {
+  font-size: 30px;
+}
 
+#home-body-2-head-text a {
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin: 30px 0px;
+  color: white;
+  /* border: 5px solid var(--orange); */
+  background: -moz-linear-gradient(90deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
+  background: linear-gradient(90deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d96710",endColorstr="#fa4282",GradientType=1);
+}
 
+#home-body-2-head-text a:hover{
+  transform: scale(1.06);
+}
 
+#home-body-2-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
 
+.feature-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+  text-align: center;
+}
 
+#users-company-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#float-box-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
 
+.float-box-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 160px;
+  height: 250px;
+  padding: 0px 80px;
+  margin: 0px 5px;
+  border-radius: 10px;
+  background-color: #5a5f64;
+  transition: ease-in-out 0.1s;
+}
 
+.float-box-item:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 40px var(--orange);
+  background: -moz-linear-gradient(90deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
+  background: linear-gradient(90deg, rgba(217,103,16,1) 0%, rgba(250,66,130,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d96710",endColorstr="#fa4282",GradientType=1);
+  cursor: pointer;
+}
 
+.float-box-item i {
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+
+.fa-check-circle {
+  font-size: 21px;
+  color: greenyellow;
+}
 
 
 
@@ -258,9 +387,11 @@ s
 .con li {
   margin-top: 10px;
   cursor: pointer;
+  color: #ccc;
 }
 .con .chead {
-  font-size: medium;
+  font-size: bold;
+  color: #dd9e6d;
   
 }
 .small {

@@ -7,6 +7,7 @@
 
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -132,6 +133,12 @@ div #main-logo{
     /* border: 2px solid red; */
 }
 
+#button-1:hover,
+#button-2:hover {
+    transform: scale(1.06);
+}
+
+
 #button-1 {
     border: 2px solid var(--orange);
     color: var(--orange);
@@ -188,6 +195,7 @@ div #main-logo{
     background-color: #cacaca;
     cursor: pointer;
 }
+
 
 
 @media only screen and (max-width: 770px) {
