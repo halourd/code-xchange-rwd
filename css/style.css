@@ -772,14 +772,8 @@ margin: 20px;
   cursor: pointer;
   color: #ccc;
 }
-<<<<<<< HEAD
-.con .chead {
-  font-size: bold;
-  color: #dd9e6d;
-=======
 .con .chead{
   font-size: medium;
->>>>>>> 77f85157483b4b08ebd0780ee99672fb7b8d1787
   
 }
 .small{
