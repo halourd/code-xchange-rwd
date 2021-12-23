@@ -212,4 +212,67 @@ div #main-logo{
 
     }
 }
+/* <<<<<<<<<<<<<<<<<<<<<<<< Left-Bar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.center{
+    width: 100%;
+    margin: auto;
+}
+.side-container{
+    display: flex;
+    margin: 0 50px;
+    height: auto;
+}
+.left-bar{
+    flex: 1;
+   overflow: auto;
+   height: 100vh;
+   border-right: 1px solid rgb(113, 116, 113);
+   padding-top: 15px;
+   padding-bottom: 40px;
+    
+}
+.left-bar li{
+    list-style: none;
+    margin-top: 20px;
+    
+
+}
+.left-bar li a{
+
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+}
+.left-bar ul{
+    box-sizing: border-box;
+    border-style:ridge;
+    padding-bottom: 40px;   
+    font-size: 15px;
+}
+.indent{
+    padding-left: 20px;
+}
+.Teams{
+    padding-left: 10px;
+}
+#button1 {
+    border: 1px solid rgb(23, 73, 235);
+    background-color: rgb(32, 70, 236);
+    color: white;
+}
+#button2 {
+    border: 1px solid rgb(23, 73, 235);
+    color: rgb(23, 73, 235);
+    margin-left: 10px;
+    
+}
+#button1:hover{
+    color: lightgray;
+}
+#button2:hover{
+    background-color: lightgray;
+
+}
 
