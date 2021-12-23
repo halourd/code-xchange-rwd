@@ -213,6 +213,10 @@
      font-size: 15px;
      padding-bottom: 15px ;
  }
+
+ .p7 a {
+     color: var(--orange);
+ }
  .p7pic{
      width: 30px;
      height: 25px;
@@ -222,7 +226,7 @@
  }
  
 .p6{
-    font-size: 30px;
+    font-size: 32px;
     padding-bottom: 10px ;
     background: -webkit-linear-gradient(var(--orange), var(--pink));
     -webkit-background-clip: text;
@@ -396,13 +400,19 @@ input.box{
     padding: 10px 70px;
     width: 90%;
     margin: 10px auto;
-    border: 1px solid rgb(23, 73, 235);
-    background-color: rgb(32, 70, 236);
+    background: -webkit-linear-gradient(var(--orange), var(--pink));
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     border-radius: 6px;
     color: white;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
+
+.sub2:hover {
+    transform: scale(1.03);
+}
+
+
 .click{
     padding: 20px;
     font-size: smaller;
