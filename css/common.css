@@ -20,7 +20,7 @@
     width: 100%;
     padding: 0px 30px;
     border-top: 3px solid var(--orange);
-    border: 2px solid red;
+    border-bottom: 1px solid #cacaca;
     /* overflow: hidden; */
     
 }
