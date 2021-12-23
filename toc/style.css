@@ -1,0 +1,43 @@
+
+.container{
+display:flex ;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.left-bar{
+
+    border: 1px solid;
+    border-radius: 3px;
+    box-shadow: var();
+    font-size: 13px;
+    background-color: white;
+  margin: 400px 200px;
+    margin-top: 75px;
+    width: 200px;
+    height: 1700px;
+
+}
+.public-net{
+    list-style-type: none;
+   margin: 50px 50px;
+    padding: 5px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-bottom: 25px;
+
+}
+.boxx{
+   margin-top: 75px;
+
+}
+.public{
+    margin-right: 400px;
+ 
+
+}
+
+.agree{
+    
+
+}
+
