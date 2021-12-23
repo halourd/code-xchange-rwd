@@ -1,92 +1,30 @@
 
-
-/* Left-Bar */
-.center{
-    width: 1060px;
-    margin: auto;
-}
-.side-container{
-    justify-content: center;
-    align-items: center;
-}
-.left-bar{
-   
-   float: left;
-   /* justify-content: center;
-   align-items: center; */
-   /* height: 80vh; */
-   /* border-style: solid; */
-   overflow: hidden;
-   border-right: 1px solid green;
-   width: 17%;
-   padding-top: 15px;
-   padding-bottom: 20px;
-    
-}
-.left-bar li{
-    list-style: none;
-    margin-top: 20px;
-    
-
-}
-.left-bar li a{
-
-    text-decoration: none;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    
-}
-.left-bar ul{
-    box-sizing: border-box;
-    border-style:ridge;
-    padding-bottom: 40px;   
-    font-size: 15px;
-}
-.indent{
-    padding-left: 20px;
-}
-.Teams{
-    padding-left: 10px;
-}
-#button1 {
-    border: 1px solid rgb(23, 73, 235);
-    background-color: rgb(32, 70, 236);
-    color: white;
-}
-#button2 {
-    border: 1px solid rgb(23, 73, 235);
-    color: rgb(23, 73, 235);
-    margin-left: 10px;
-    
-}
-#button1:hover{
-    color: lightgray;
-}
-#button2:hover{
-    background-color: lightgray;
-
-}
-
 /* User Content-------------------------------------------- */
 .cusers{
-    margin-top: 20px;
-    float: right;
-    width: 83%;
-    /* display: flex; */
-    /* height: 550px; */
-    /* box-sizing: border-box;
-    border-style: 2px solid green; */
+    flex: 4;
+    width: auto;
  
+
 }
-.users{
-    float: left;
-    padding-left: 20px;
-    /* display: flex; */
-    margin-right: 20px;
+.user-box{
+    margin: 20px;
+    height: auto;
+}
+.box-gap{
+    display: flex;
+    justify-content: space-between;
+}
+.user-about{
+    display: flex;
+
+}
+.user-pic{
+    margin: 10px;
+
 }
 .Us{
-    float: left;
+    margin: 0 10px;
+  
 }
 .Us h1{
     
@@ -95,30 +33,31 @@
     
    
 }
-.cusers .user-info {
+ .user-info {
     display: flex;
 
 }
 .user-info h5{
     margin-right: 20px;
-  
+    
 }
-.Network{
-    float: right;
-    color: rgba(0, 0, 0, 0.644);
-    border-style:dashed;
+.Network-prof{
+ margin: 20px;  
+ 
+}
+.Network-prof a{
+    
+    color: #252f7b;
+    border: 2px dashed rgb(0, 0, 0, 0.644);
     border-radius:5px;
     padding: 10px;
-}
-.Network a{
-    color: black;
 
 }
-.Network:hover{
-    background-color: rgb(243, 243, 243);
+.Network-prof a:hover{
+    background: var(--orange-pink-gradient);
 }
 .content-bar{
-    clear: both;
+
     padding-top: 20px;
 }
 .content-bar ul{
@@ -176,10 +115,8 @@
     margin: 100px 200px;
     margin-bottom: 20px;
 }
-
 /* Footer --------------------------------------------------*/
 .foot{
-    clear: both;
     background: rgba(15, 15, 15, 0.719);
 }
 .topf{

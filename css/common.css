@@ -243,7 +243,12 @@ div #main-logo{
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+    border-radius: 10px;
+    padding: 5px;
     
+}
+.left-bar li a:hover{
+    background: var(--orange-pink-gradient);
 }
 .left-bar ul{
     box-sizing: border-box;
@@ -252,7 +257,7 @@ div #main-logo{
     font-size: 15px;
 }
 .indent{
-    padding-left: 20px;
+    margin-left: 40px;
 }
 .Teams{
     padding-left: 10px;
