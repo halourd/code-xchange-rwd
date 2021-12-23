@@ -212,6 +212,24 @@ div #main-logo{
 
     }
 }
+
+
+@media screen and (max-width: 420px) {
+    #top-bar-container {
+        padding: 0px;
+    }
+
+    .con {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-dropdown{
+        display: none;
+    }
+}
+
+
 /* <<<<<<<<<<<<<<<<<<<<<<<< Left-Bar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .center{
     width: 100%;
