@@ -36,7 +36,9 @@
     background-color: rgb(239, 243, 248);
 }
 .logo{
-    display: flex;
+    align-self: center;
+    margin: 70px 30px 0px 35px;
+    padding: 0px 40px 0px 40px;
     justify-content: center;
     margin: 13rem 0px 40px 0px;
 }
@@ -45,7 +47,7 @@
 }
 
 #buttons{
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     height: 160px ;
     width: 100%;
@@ -62,7 +64,7 @@
 #google{
     background-color: white;
     border-radius: 6px;
-    margin: 5px 0px 8px 0px;
+    margin: 0px 0px 8px 0px;
     text-align: center;
     padding: 1px 6px 1px 6px;
     padding-bottom: 10px;
@@ -128,7 +130,7 @@
 .input1{
     display: flex;
     flex-direction: column;
-    padding-top: 15px;
+    padding-top: 10px;
     margin: 0px 25px 0px 25px;
     font-size: 14px;
 }
@@ -142,8 +144,10 @@
     height: 30px;
 }
 .inpass{
-    width: 220px;
-    height: 30px;
+    width:100% ;
+    height: 40px;
+    border-radius: 6px;
+    border-color: grey;
 }
 .subutton{
     width: 100%;
@@ -174,7 +178,7 @@
 
 
 
-/*2nd css*/
+/*2nd css SIGN UP*/
 
 #content2{
     display: flex;
@@ -209,7 +213,6 @@
     padding: 5px 5px 5px 5px;
     background-color: rgb(239, 243, 248);
 }
-
 .google{
     background-color: white;
     border-radius: 6px;

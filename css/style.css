@@ -118,8 +118,10 @@
   background: -webkit-linear-gradient(var(--orange), var(--pink));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* box-shadow: 1px 1px 30px chartreuse; */
+  text-shadow: 1px 1px 40px var(--pink);
 }
-
+s
 .header-wrapper {
   margin: 50px 0px;
 }
@@ -147,6 +149,84 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+/* #### FLOAT CARDS ####  */
+
+#float-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 100px 0px;
+  /* border: 2px solid green; */
+  
+}
+
+
+#float-card-1,
+#float-card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  margin: 0px 40px;
+  width: 460px;
+  border-radius: 10px;
+  background-color: rgb(166, 166, 255);
+}
+
+#float-card-1 div,
+#float-card-2 div{
+  margin: 5px 0px;
+}
+
+#float-card-1 {
+  background: rgb(247,169,108);
+  background: linear-gradient(0deg, rgba(247,169,108,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+#float-card-2 {
+  background: rgb(252,234,138);
+  background: linear-gradient(0deg, rgba(252,234,138,1) 0%, rgba(255,255,255,1) 100%);
+}
+.card-head-logo img {
+  width: 200px;
+}
+
+.card-img img{
+  width: 500px;
+}
+
+.card-btn {
+  background-color: var(--orange);
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: var(--orange);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* JESSA - SIGN-IN LOGIN | SIGN UP */
 
 
