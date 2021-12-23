@@ -233,50 +233,6 @@ h1 {
       font-weight: bold;
   }
 
-
-
-
-
-/*footer*/
-.foot {
-    clear: both;
-    background: rgba(15, 15, 15, 0.719);
-  }
-  .topf {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: aliceblue;
-  }
-  .con {
-    list-style: none;
-    /* margin-right: 40px; */
-    margin: 20px;
-    font-size: small;
-  }
-  .con li {
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  .con .chead {
-    font-size: medium;
-    
-  }
-  .small {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: smaller;
-    margin: 30px;
-  }
-  .small li {
-    margin-right: 20px;
-    list-style: circle;
-    cursor: pointer;
-  }
-
-
-
-
   @media only screen and (max-width:300px) {
     /* For mobile phones: */
     .logoo, .left, .right, .mid, .content, .a, .bot, .foot {
