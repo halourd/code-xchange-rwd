@@ -94,7 +94,7 @@ div #main-logo{
 }
 
 .nav-item {
-    display: flex;
+      display: flex;
     align-items: center;
 }
 
@@ -141,6 +141,11 @@ div #main-logo{
     transform: scale(1.06);
 }
 
+.img-baba ul li a li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
 #button-1 {
     border: 2px solid var(--orange);
